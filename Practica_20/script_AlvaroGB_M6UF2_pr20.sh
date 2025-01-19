@@ -1,5 +1,5 @@
 #!/bin/bash
-#source /home/alvaro/myscript.conf
+source /home/$(whoami)/myscript.conf
 
 if [ -z $uidnum ]
 then
@@ -34,7 +34,7 @@ do
 
 	#Generamos el fichero .log
 	echo "uid:$nom userPassword: $pwd" >> garcia.log
-done < /home/alvaro/MOCK_DATA.csv
+done < /home/$(whoami)/MOCK_DATA.csv
 #sed
 sed -i 'y/áàäâåÁÀÄÂÅéèëêÉÈËÊíìïîÍÌÏÎóòöôÓÒÖÔúùüûÚÙÜÛçÇ/aaaaaAAAAAeeeeEEEEiiiiIIIIooooOOOOuuuuUUUUcC/' altas.ldif
 

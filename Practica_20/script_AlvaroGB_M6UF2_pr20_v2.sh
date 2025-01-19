@@ -1,5 +1,5 @@
 #!/bin/bash
-#source /home/alvaro/myscript.conf
+source /home/$(whoami)/myscript.conf
 
 #Versión 2 del script
 
