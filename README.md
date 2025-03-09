@@ -9,13 +9,9 @@ El script de Shell permite importar y procesar un archivo CSV que contiene infor
 - Creación automática de usuarios: Los usuarios se crean de forma automática en el servidor de LDAP, utilizando el CSV como entrada, sin intervención manual.
 
 - Validación de campos: El script valida la existencia de campos necesarios  antes de realizar la creación de cuentas.
-
-- Simplicidad y eficiencia: El uso de Shell Script permite realizar este proceso de manera rápida y sin necesidad de aplicaciones complejas
-
+  
 # Casos de uso:
 - Administración de sistemas: Ideal para administradores de sistemas que necesitan agregar múltiples usuarios a un servidor o plataforma de manera rápida.
-
-- Migración de datos: Si tienes una lista de usuarios que proviene de otro sistema o archivo, puedes utilizar este script para integrarlos fácilmente.
 
 - Automatización de tareas repetitivas: Perfecto para la automatización de tareas en entornos donde se requiera la creación masiva de cuentas de usuario.
 
