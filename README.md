@@ -1,11 +1,5 @@
 # Alta de usuarios a partir de un fichero CSV con Shell Scripting
 
-# Preámbulo
-Este proyecto tiene como propósito **automatizar la creación de usuarios** en un sistema utilizando un archivo CSV como fuente de datos. A través de un **script en Shell**, se leen los datos de los usuarios desde un archivo CSV y se generan cuentas automáticamente en el sistema, eliminando la necesidad de crear usuarios de manera manual.
-
-Este enfoque es útil para administradores de sistemas o cualquier entorno que requiera la creación masiva de usuarios de forma eficiente y sin intervención manual.
-
-
 # Descripción
 El script de Shell permite importar y procesar un archivo CSV que contiene información de usuarios y luego crear los usuarios correspondientes en el sistema. Esta solución es ideal para administrar grandes cantidades de usuarios de manera eficiente.
 
@@ -25,10 +19,6 @@ El script de Shell permite importar y procesar un archivo CSV que contiene infor
 
 - Automatización de tareas repetitivas: Perfecto para la automatización de tareas en entornos donde se requiera la creación masiva de cuentas de usuario.
 
-## ¿Por qué usarlo?
-- **Ahorro de tiempo**: Automatiza un proceso repetitivo y propenso a errores, ahorrando tiempo y esfuerzo en la creación de cuentas de usuario.
-
-- **Fácil implementación**: El script es sencillo de usar y requiere solo configuraciones mínimas para adaptarlo a diferentes entornos y necesidades.
 
 ## Prerrequisitos
 - Una máquina virtual con: Ubuntu server, Ubuntu desktop, Lubuntu, o derivados de Ubuntu.
@@ -96,13 +86,14 @@ La **Versión 3** del script introduce importantes mejoras en la fiabilidad, ges
 - **Generación de usuarios LDAP**: Continúa generando automáticamente entradas LDAP para cada usuario a partir de los datos en el archivo CSV. El script sigue generando contraseñas aleatorias y configurando los atributos de usuario correspondientes.
 - **Mejora en la legibilidad y claridad**: El código está más organizado, lo que facilita su comprensión y mantenimiento.
   
-### Beneficios:
+### Mejoras:
 - **Mayor confiabilidad**: Las comprobaciones y el manejo de errores mejorados hacen que este script sea más confiable para entornos de producción.
 - **Optimización**: El uso de `IFS` para la lectura de CSV y el manejo de parámetros hacen que el script sea más eficiente y flexible.
 - **Mayor control**: El verificador de éxito al agregar entradas al servidor LDAP proporciona un control adicional sobre el proceso, asegurando que las entradas solo se agreguen cuando todo el proceso se haya realizado correctamente.
 
 ### Limitaciones:
 - Aunque esta versión mejora la fiabilidad y la flexibilidad del script, todavía depende de que los datos en el archivo CSV estén correctamente estructurados.
+
 
 ## Consideraciones
 Este script forma parte de una práctica para la asignatura de Administración de Sistemas Informáticos (ASIR/ASIX - M6). Está diseñado con fines educativos para mostrar cómo automatizar procesos en un entorno de servidor LDAP mediante el uso de Shell Script. Si bien el proyecto está pensado para ser un ejemplo de automatización, es importante considerar las limitaciones del script, como la necesidad de un archivo CSV bien estructurado y la falta de validación exhaustiva de los datos de entrada.
