@@ -32,7 +32,6 @@ El script de Shell permite importar y procesar un archivo CSV que contiene infor
 
 # Instalación y uso
 1) Clonar este repositorio.
-git clone https://github.com/alvarogarcia1994/Alta-de-usuarios-a-partir-de-CSV.git
 
 2) Acceder a la carpeta del repositorio
 cd Alta-de-usuarios-a-partir-de-CSV/...
